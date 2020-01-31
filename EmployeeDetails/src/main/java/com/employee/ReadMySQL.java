@@ -7,7 +7,7 @@ public class ReadMySQL {
 	public void StartmySQLconnection() {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-		con=DriverManager.getConnection("jdbc:mysql://localhost:3306/employee","root","av203465");
+		con=DriverManager.getConnection("jdbc:mysql://localhost:3306/employee","root","xxxxxx");
 		st = con.createStatement();
 
 		} catch (ClassNotFoundException e) {
